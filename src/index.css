@@ -5,35 +5,29 @@
 body {
   font-family: "Karla", sans-serif;
   margin: 0;
-  padding: 0;
 }
 
 main {
   padding: 36px;
-  max-width: fit-content;
-  margin: 0;
 }
-/*Header styles*/
+
 .header {
   display: flex;
   align-items: center;
   height: 65px;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
-  padding: 15px 20px;
-  flex: wrap;
+  padding: 20px;
 }
 
 .header--image {
   height: 100%;
   margin-right: 6px;
-
 }
 
 .header--title {
   font-size: 1.25rem;
   margin-right: auto;
-  text-align: center;
 }
 
 .header--project {
@@ -41,7 +35,6 @@ main {
   font-weight: 500;
 }
 
-/*Form styling*/
 .form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
@@ -66,8 +59,7 @@ main {
   cursor: pointer;
 }
 
-/*Meme Container
-updated meme styling*/
+/*updated meme styling*/
 .meme {
  
     display: flex;

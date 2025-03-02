@@ -1,15 +1,22 @@
-import React from "react"
-import Header from "./components/Header"
-import Meme from "./components/Meme"
+import React from "react";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
 
 /**
- * Challenge: Build the Header component
+ * App component that serves as the main entry point for the Meme Generator app.
+ * It renders the Header and Meme components.
+ * 
+ * @component
+ * @returns {JSX.Element} The main structure of the app containing the Header and Meme components.
  */
 export default function App() {
     return (
-      <div>
-      <Header />
-      <Meme />
-      </div>
-    )
+        <div>
+            {/* Render the Header component*/}
+            <Header />
+            
+            {/* Render the Meme component*/}
+            <Meme />
+        </div>
+    );
 }
